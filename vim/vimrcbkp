@@ -1,0 +1,30 @@
+colorscheme codedark
+filetype plugin indent on
+syntax on
+set encoding=utf-8
+" show existing tab with 4 spaces width
+set tabstop=4
+" when indenting with '>', use 4 spaces width
+set shiftwidth=4
+" On pressing tab, insert 4 spaces
+set expandtab
+
+" Search down into subfolders
+" Provides tab-completion for all file-related tasks
+set path+=**
+" Display all maching files when we tab complete
+set wildmenu
+execute pathogen#infect()
+
+" Double-j
+:imap jk <Esc>
+
+let mapleader = "<Space>"
+
+set spell spelllang=en_us
+
+" Display line numbers rleative to the cursor position
+set relativenumber
+
+" Highlights searches
+set hlsearch
