@@ -1,0 +1,19 @@
+" Lint 
+
+" ale settings
+let g:ale_sign_error = 'x'
+let g:ale_sign_warning = "^"
+let g:ale_sign_column_always = 1
+let g:ale_linters = {
+            \   'python': ['flake8'],
+            \   'cpp': [],
+            \}
+
+let g:ale_fix_on_save = 0
+let g:ale_fixers = {
+            \   'cpp': ['clang-format'],
+            \   'python': ['yapf'],
+            \}
+
+" vim:ft=vim
+

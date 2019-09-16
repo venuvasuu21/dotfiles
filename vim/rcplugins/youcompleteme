@@ -1,0 +1,6 @@
+" To install this plugin after downloading using :PlugInstall,
+" refer this site https://github.com/ycm-core/YouCompleteMe
+
+Plug 'Valloric/YouCompleteMe'
+
+" vim:ft=vim

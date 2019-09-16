@@ -9,6 +9,8 @@ set nowritebackup
 set noswapfile
 set history=50
 set ruler            " show the cursor position all the time
+" set cc=80            " Character boundry ruler
+set t_Co=16          " Character boundry ruler
 set showcmd          " display incomplete commands
 set incsearch        " do incremental searching
 set laststatus=2     " Always display the status line
@@ -21,6 +23,7 @@ set shiftwidth=4
 set shiftround
 set expandtab
 
+set textwidth=80     " To set line width to 80, use gq to format
 " Display extra whitespace
 set list listchars=tab:»·,trail:·,nbsp:·
 
@@ -48,5 +51,8 @@ set diffopt+=vertical
 
 " Don't require saving before closing a buffer
 set hidden
+
+" Split edit your vimrc. Type space, v, r in sequence to trigger
+nmap <leader>vr :sp $MYVIMRC<cr>
 
 " vim:ft=vim
