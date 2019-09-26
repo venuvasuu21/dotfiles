@@ -1,0 +1,5 @@
+# add homebrew binaries
+export PATH="/usr/local/bin:$PATH"
+
+# add my custom commands
+export PATH="$HOME/Venu/bin:$PATH"
