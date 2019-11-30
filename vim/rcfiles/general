@@ -23,7 +23,7 @@ set shiftwidth=4
 set shiftround
 set expandtab
 
-set textwidth=80     " To set line width to 80, use gq to format
+set textwidth=79     " To set line width to 80, use gq to format
 " Display extra whitespace
 set list listchars=tab:»·,trail:·,nbsp:·
 
